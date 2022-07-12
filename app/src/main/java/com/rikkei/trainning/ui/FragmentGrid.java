@@ -32,7 +32,7 @@ public class FragmentGrid extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         recyclerView = view.findViewById(R.id.recyclerView);
-        GridLayoutManager manager = new GridLayoutManager(getContext(),3);
+        GridLayoutManager manager = new GridLayoutManager(getContext(),2);
         recyclerView.setLayoutManager(manager);
         SingerAdapter adapter = new SingerAdapter(list);
         recyclerView.setAdapter(adapter);

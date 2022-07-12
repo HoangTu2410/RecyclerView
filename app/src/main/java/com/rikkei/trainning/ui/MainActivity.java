@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new Singer(R.drawable.bao_thy,"Bảo Thy"));
         list.add(new Singer(R.drawable.bich_phuong,"Bích Phương"));
         list.add(new Singer(R.drawable.chi_dan,"Chi Dân"));
+        list.add(new Singer(R.drawable.chipu,"Chipu"));
         list.add(new Singer(R.drawable.dan_truong,"Đan Trường"));
         list.add(new Singer(R.drawable.ho_quang_hieu,"Hồ Quang Hiếu"));
         list.add(new Singer(R.drawable.khoi_my,"Khởi My"));
